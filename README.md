@@ -9,16 +9,16 @@
 - [Conclusion](#-conclusion)  
 - [Connect with Me](#-connect-with-me)  
  
-# Introduction
+## Introduction
 Welcome to the SQL Analytics Project! This project utilizes advanced SQL techniques to analyze sales data from a dataset structured into three tables: dim_customers, dim_products, and fact_sales. The primary objective is to derive meaningful insights about market trends, performance metrics, and customer behaviors, employing various SQL functionalities such as Common Table Expressions (CTEs), window functions, and subqueries.
 
-# Data Overview
+## Data Overview
 - dim_customers: Customer details (e.g., customer_key, first_name, birthdate).
 - dim_products: Product info (e.g., product_key, product_name, cost, category).
 - fact_sales: Transaction records (e.g., order_date, sales_amount, customer_key, product_key).
 Sample data covers March 13–18, 2013, with 498 orders, 469 customers, and 295 products.
 
-# Analysis Tasks
+## Analysis Tasks
 1. Changes Over Time
 - Yearly Sales query:
 
@@ -246,11 +246,15 @@ Insight: All customers are new in this period; longer data would show loyalty.
  END AS avg_monthly_spend
  FROM customer_aggregation;``` 
 
- *Sample Result:* Jon Yang (customer_key 1), Age 53, New, 1 order, $32 sales, Recency ~139 months, Avg Order Value $32.
+ - Sample Result: Jon Yang (customer_key 1), Age 53, New, 1 order, $32 sales, Recency ~139 months, Avg Order Value $32.
 
- *Insight:* One-time buyers dominate; broader data would highlight repeat customers.
+ - Insight:* One-time buyers dominate; broader data would highlight repeat customers.
 
-# Conclusion
+
+## Conclusion
 This analysis highlights a bike-dominated sales ecosystem with substantial early-year sales figures driven by premium product offerings. For deeper insights into market trends and customer loyalty, it is recommended to expand the dataset to include more extended temporal data.
 
-# Connect with Me
+## Connect with Me
+
+[LinkedIn](https://www.linkedin.com/in/wisdom-douglas/) | 
+[GitHub](https://github.com/wizglobal-tech)
